@@ -1,0 +1,89 @@
+/* bảng màu */
+html {
+   width:  100%;
+   height: 100%;
+   margin: 0;
+   padding: 0;
+}
+body{
+   background: #f1f1f1;
+   min-width: 0;
+   color: #444;
+   font-size: 13px;
+   line-height: 1.4;
+}
+
+label {
+   cursor: pointer;
+}
+.form{
+   display: flex;
+   align-content: center;
+   
+}
+.form h1 {
+   text-align: left;
+   color:  #000000   ;
+}
+.form * {
+   margin: 0;
+   padding: 0;
+}
+
+#login{
+   width: 320px;
+   padding: 8% 0 0;
+   margin: auto;
+   margin-right: 100px;
+
+}
+#register{
+   width: 320px;
+   padding: 8% 0 0;
+   margin: auto;
+   margin-left: 100px;
+}
+#registerform{
+   height: 284px;
+}
+
+.form form {
+   margin-top: 20px;
+   margin-left: 0;
+   padding: 26px 24px 46px;
+   font-weight: 400;
+   overflow: hidden;
+   background: #fff;
+   border: 1px solid #000000;
+   box-shadow: 0 1px 3px rgba(0,0,0,.04);
+}
+#login form p {
+   margin-bottom: 0;
+}
+#register form p {
+   margin-bottom: 0;
+}
+.form label {
+   font-size: 14px;
+   line-height: 1.5;
+   display: inline-block;
+   margin-bottom: 3px;
+}
+.form form .input, .form form input[type=checkbox], .form input[type=text] {
+   background: #fbfbfb;
+}
+.form form .input, .form input[type=password], .form input[type=text] {
+   font-size: 24px;
+   line-height: 1.33333333;
+   width: 100%;
+   border-width: .0625rem;
+   border-radius: 5px;
+   padding: .1875rem .3125rem;
+   margin: 0 6px 16px 0;
+   min-height: 40px;
+   max-height: none;
+}
+.btn{
+   float: right;
+   padding: 0 10px;
+}
